@@ -6,7 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Scanner;
 
-class CommunicationManager {
+public class CommunicationManager {
     private final String baseUrl;
 
     public CommunicationManager(String baseUrl) {

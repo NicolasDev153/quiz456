@@ -8,7 +8,7 @@ public class Main {
         UserInteractionManager userInteractionManager = new UserInteractionManager(dummyCommunicationManager);
 
         // Send some data
-        String data = "{\"question\": \"What is the capital of France?\", \"user_id\": 123}";
+        String data = "{\"question\": \"What is the capital of Georgia?\", \"user_id\": 123}";
         userInteractionManager.sendData(data);
 
         // Receive data
